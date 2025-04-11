@@ -1,5 +1,8 @@
 # Scientific Search MCP for Cursor
 
+> [!WARNING]
+> Vibecoded by AI.
+
 This is a Model Control Protocol (MCP) implementation for Cursor that provides scientific search capabilities through various academic search engines.
 
 ## Features
