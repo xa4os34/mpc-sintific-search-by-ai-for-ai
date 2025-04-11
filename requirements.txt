@@ -1,0 +1,31 @@
+# Core dependencies
+aiohttp>=3.8.5
+duckduckgo-search>=3.9.0
+beautifulsoup4>=4.12.2
+requests>=2.28.0
+jsonschema>=4.19.0
+colorlog>=6.7.0
+PySocks>=1.7.1  # For Tor proxy support
+
+# Optional dependencies for scientific search engines
+# Uncomment the ones you want to install
+
+# For arXiv search
+arxiv>=2.0.0
+
+# For Google Scholar
+scholarly>=1.7.11
+
+# For PubMed
+pymed>=0.8.9
+
+# For Semantic Scholar - using direct API calls with requests
+# semanticscholar>=0.10.0 - no longer needed
+
+# Web Scraping and Parsing
+# pdfminer.six # Alternative/complement to PyPDF2, install if needed
+
+# PDF Processing
+PyPDF2>=3.0.0,<4.0.0
+PyMuPDF>=1.19.0,<2.0.0  # Also known as fitz, better for image extraction from PDFs
+# crossrefapi # For Crossref
